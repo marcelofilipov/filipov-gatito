@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "filipov-gatito",
-    "slug": "filipov-gatito",
+    "name": "Gatito Petshop",
+    "slug": "gatito",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#a050be"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -24,9 +24,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       }
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
     }
   }
 }
