@@ -54,7 +54,7 @@ export default function Item({nome, preco, descricao}) {
                         }</Text>
                     </View>
                 </View>
-                <ButtonCustom value='Adicionar' action={() => {}}></ButtonCustom>
+                <ButtonCustom value='Adicionar ao carrinho' action={() => {}}></ButtonCustom>
             </View>
         }
         <View style={styles.divider} />
