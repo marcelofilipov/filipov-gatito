@@ -1,5 +1,6 @@
 import React from 'react'
-import { SafeAreaView, StatusBar, Text } from 'react-native'
+import { FlatList, SafeAreaView, StatusBar, Text } from 'react-native'
+import Item from './Item'
 
 const services = [
     {
@@ -27,6 +28,11 @@ export default function Services() {
         <SafeAreaView>
             <StatusBar />
             <Text>Serviços!</Text>
+            <FlatList
+                data={services}
+                renderItem={({item}) => <Item {...item} /> }
+                keyExtractor={(id) => String(id)}
+            />
         </SafeAreaView>
     ) 
 }
