@@ -7,7 +7,7 @@ const services = [
         id: 1,
         nome: 'Banho',
         preco: 79.9,
-        descricao: 'NÃO DÊ BANHO NO SEU GATO!'
+        descricao: 'NÃO DÊ BANHO NO SEU GATO! Mas, precisando realizamos o serviço de banho'
     },
     {
         id: 2,
