@@ -25,7 +25,6 @@ export default function Item({nome, preco, descricao}) {
     const invertExpand = () => {
         setExpand(!expand)
         updateAmountTotal(1)
-
     }
 
     return <>
