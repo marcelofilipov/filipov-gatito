@@ -3,6 +3,7 @@ import React from 'react'
 import { FlatList } from 'react-native'
 
 import DefaultScreen from '../../components/DefaultScreen'
+import StatusShoppingCart from '../../components/StatusShoppingCart'
 import Item from './Item'
 
 
@@ -32,7 +33,9 @@ const services = [
 
 
 export default function ShoppingCart() {
+    const total = services.reduce((soma, {preco, quantidade}) => soma + (preco * quantidade), 0)
     return <DefaultScreen>
+        <StatusShoppingCart total={total}/>
         <FlatList
             data={services}
             removeClippedSubviews={false}
