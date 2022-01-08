@@ -1,7 +1,10 @@
 import React, { useState } from "react"
 
-import { Button, Text, TextInput, View } from 'react-native'
+import { Text, TextInput, View } from 'react-native'
+
+import ButtonCustom from "../../../components/Button"
 import FieldInt from "../../../components/FieldInt"
+
 import styles from "./styles"
 
 
@@ -18,14 +21,14 @@ export default function Item({nome, preco, descricao}) {
             <View>
                 <View style={styles.value}>
                     <Text style={styles.description}>Quantidade: </Text>
-                    <FieldInt valueInt={amount} action={setAmount} />
+                    <FieldInt styleParam={styles.amount} valueInt={amount} action={setAmount} />
                 </View>
                 <View style={styles.value}>
-                    <Text style={styles.description}>Quantidade: </Text>
+                    <Text style={styles.description}>Preço: </Text>
                     <Text style={styles.price}>0</Text>
                 </View>
             </View>
-            <Button title='Adicionar'></Button>
+            <ButtonCustom value='Adicionar' action={() => {}}></ButtonCustom>
         </View>
         <View style={styles.divider} />
     </>
