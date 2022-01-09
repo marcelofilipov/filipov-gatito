@@ -21,4 +21,4 @@ export default (small, inverted) => StyleSheet.create({
     textAlign: 'center',
     color: inverted ? colors.roxo : colors.laranja,
   }
-});
+})

@@ -18,7 +18,7 @@ export default function StatusShoppingCart({ total }) {
       </Text>
     </View>
     <View style={styles.button}>
-      <ButtonCustom valor='Concluir Pedido' invertido />
+      <ButtonCustom value='Concluir Pedido' inverted />
     </View>
   </View>
 }
