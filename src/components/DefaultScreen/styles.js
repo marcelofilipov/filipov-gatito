@@ -9,5 +9,5 @@ export default StyleSheet.create({
   renderScreenFOOTER: {
     flex: 0,
     backgroundColor: colors.laranja,
-  }
+  },
 });
